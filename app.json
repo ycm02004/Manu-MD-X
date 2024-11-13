@@ -1,0 +1,88 @@
+{
+  "name": "🧚‍♀️𝗠𝗔𝗡𝗨-𝗠𝗗-𝗩❼💗",
+  "description": "Javascript WhatsApp bot made by Manul Official",
+  "logo": "https://telegra.ph/file/ef48cc8d2d26081f7d46a.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+    "READ_CMD": {
+      "description": "Put true or false.",
+      "required": true
+    },
+    
+    
+    "ANTI_LINK": {
+      "description": "Put kick or warn or delete.",
+      "required": true
+    },
+    
+    
+    "ANTI_BAD": {
+      "description": "Put kick or warn or delete.",
+      "required": true
+    },
+    
+        "ANTI_PHOTO": {
+      "description": "Put true or false.",
+      "required": true
+    },
+    
+        "ANTI_STICKER": {
+      "description": "Put true or false.",
+      "required": true
+    },
+
+    "WARN_COUNT": {
+      "description": "Put 3 or any number.",
+      "required": true
+    },
+    
+    "AUTO_REACT": {
+      "description": "Put true or false.",
+      "required": true
+    },
+    
+    "AUTO_VOICE": {
+      "description": "Put true or false.",
+      "required": true
+    },
+    
+    "AUTO_TYPING": {
+      "description": "Put true or false.",
+      "required": true
+    },
+    
+    "ALWAYS_ONLINE": {
+      "description": "Put true or false.",
+      "required": true
+    },
+    
+    "AUTO_RECORDING": {
+      "description": "Put true or false.",
+      "required": true
+    },
+    
+        "AUTO_READ_STATUS": {
+      "description": "Put true or false.",
+      "required": true
+    },
+    
+    "MODE": {
+      "description": "Put worktype public or private or groups.",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
