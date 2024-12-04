@@ -1,3 +1,0 @@
-# Upload Your Creds.json Here
-
-## DEPLOY BY CREDS.JSON (WHATSAPP LOG WITH PAIR CODE)
